@@ -1,0 +1,49 @@
+<!DOCTYPE html>      <!--Html5 document declaration-->
+<html lang="en">
+  <head>
+  	<title>Gradients in css3</title>  <!--Title of webpage-->
+  	<meta charset="UTF-8">             <!--Chracter Encoding-->
+  	<style type="text/css">             /* Internal styling element */
+  	   .first {                         /* class name of html element */
+  	   	   height: 110px;
+  	   	   width: 120px;
+  	   	   background: linear-gradient( to right,red,green);  /* This is linear gradient */
+  	   	   border-radius: 10px;  float: left;
+           margin-left: 400px;
+         }
+       h2 {
+           text-align: center;
+           padding: 20px;
+         }
+
+       .second {                       /* . represents class name */
+
+           height: 110px;
+           width: 120px;
+           background: radial-gradient(circle,red,yellow,green);   /* This is radial gradient represents circle shape */
+           border-radius: 10px; float: left;
+           position: relative;
+           margin-left: 10px;
+         }
+
+       .third {
+           height: 110px;
+           width: 120px;                            
+           background: radial-gradient(red,yellow,green);    /* Radial gradient representing ellipse shape */               
+           border-radius: 10px;float: left;
+           margin-left: 10px;
+         }
+
+       h1 {
+           margin-left: 170px;
+           color: blue;
+         }
+  	</style>                            
+  </head>                      
+  <body>                                <!--Body of webpage-->
+  	<h1>CSS3 Grdaients { linear,radial(circle,ellipse)}</h1>
+  	<div class="first"><h2>Box</h2></div>
+  	<div class="second"><h2>Box</h2></div>
+  	<div class="third"><h2>Box</h2></div>
+  </body>
+</html>              <!-- End of html-->
